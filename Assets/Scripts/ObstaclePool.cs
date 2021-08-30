@@ -1,16 +1,9 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class ObstaclePool : MonoBehaviour
 {
-    public static GameManager instance;
-
-    // Logic
-    public int gamePoints;
-
-    private void Awake()
-    {
-        instance = this;
-    }
     // Start is called before the first frame update
     void Start()
     {
